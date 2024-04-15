@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.fa-solid{
+    padding: 5px;
+}
+
+.card {
+    width: 250px;
+    height: auto;
+    background-color: #328998;
+}
+
+.card-title {
+    font-weight: 400;
+    text-align: left;
+    color: #ffffff;
+}
+.card-text {
+    font-weight: 400;
+    text-align: left;
+    color: #ffffff;
+}
+
+.card-img-top {
+    width: auto;
+    height: 150px;
+}
