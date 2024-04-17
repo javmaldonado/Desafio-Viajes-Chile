@@ -22,11 +22,10 @@ html {
     scroll-behavior: smooth;
   }
   
-
-.navbar {
+.navbar{
     -webkit-backdrop-filter: blur(8px);
     backdrop-filter: blur(8px);
-    }  
+    } 
 
 .fa-solid{
     padding: 5px;
@@ -53,3 +52,4 @@ html {
     width: auto;
     height: 150px;
 }
+

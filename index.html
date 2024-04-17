@@ -6,6 +6,7 @@
     <meta name="author" content="Javiera Maldonado Agurto" />
 
     <title>Viajes Chile</title>
+    <link rel="icon" type="image/x-icon" href="./assets/img/viajes.svg">
 
     <!--BOOTSTRAP CSS-->
     <link
@@ -46,13 +47,13 @@
     <nav
       class="navbar navbar-expand-lg navbar-dark bg-transparent text-white fixed-top"
     >
-      <div class="container-fluid">
+      <div class="container">
         <img
           src="./assets/img/viajes.svg"
           alt="Logo"
           width="30"
           height="24"
-          class="d-inline-block align-text-top"
+          class="d-inline-block "
         />
         Viajes Chile
         <button
@@ -242,32 +243,32 @@
     <h1 class="fs-1 p-4 text-center" id="contacto">Contacto</h1>
 
     <form class="container">
-      <div class="forma pb-5 pe-4">
+      <div class="form pb-5 pe-4">
         <label for="exampleInputEmail1" class="form-label">Nombre</label>
         <input type="nombre" class="form-control" id="exampleInputNombre" />
       </div>
-      <div class="forma pb-5 pe-4">
+      <div class="form pb-5 pe-4">
         <label for="exampleInputPassword1" class="form-label">Asunto</label>
         <input type="texto" class="form-control" id="exampleInputAsunto" />
       </div>
-      <div class="forma pb-5 pe-4">
+      <div class="form pb-5 pe-4">
         <label for="exampleInputPassword1" class="form-label row-3">Mensaje</label>
         <textarea class="form-control" rows="5" id="comment" name="text"></textarea>
       </div>
-      <button id="enviar" type="submit" class="btn btn-primary mb-4" data-bs-toggle="tooltip" data-bs-placement="left"
+      <button id="enviar" type="submit" class="btn btn-info text-white  mb-4" data-bs-toggle="tooltip" data-bs-placement="left"
        title="Presiona para enviar mensaje"> Enviar</button>
     </form>
 
-    <section class="piepagina py-md-2 bg-info">
-      <footer class="footer fs-1 text-white">
-        VIAJES CHILE
-        <div class="favicon inline-block">
-          <i class="fa-brands fa-github"></i>
-          <i class="fa-brands fa-linkedin"></i>
-          <i class="fa-brands fa-square-x-twitter"></i>
-          <i class="fa-brands fa-square-facebook"></i>
+
+      <footer class="piepagina bg-info d-flex justify-content-around bg-secondary mb-3">
+        <h3 class="viajes p-4">VIAJES CHILE</h3>
+        <div class="favicon px-4 py-4 ">
+          <i class="fa-brands fa-github fa-2x"></i>
+          <i class="fa-brands fa-linkedin fa-2x"></i>
+          <i class="fa-brands fa-square-x-twitter fa-2x"></i>
+          <i class="fa-brands fa-square-facebook fa-2x"></i>
         </div>
       </footer>
-    </section>
+   
   </body>
 </html>
