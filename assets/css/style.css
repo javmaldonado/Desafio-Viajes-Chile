@@ -22,13 +22,18 @@ html {
     scroll-behavior: smooth;
   }
   
+
+.navbar {
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+    }  
+
 .fa-solid{
     padding: 5px;
 }
 
 .card {
-    width: 250px;
-    height: auto;
+   
     background-color: #328998;
 }
 
@@ -41,6 +46,7 @@ html {
     font-weight: 400;
     text-align: left;
     color: #ffffff;
+    background-color: #328998;
 }
 
 .card-img-top {
